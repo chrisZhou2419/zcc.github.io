@@ -1,43 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; 
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #87CEFA;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; 
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section {
-    padding: 20px;
-    margin: 10px;
+  margin-bottom: 20px; 
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  background-color: #87CEFA;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px;
 }
