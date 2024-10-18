@@ -41,11 +41,18 @@ main {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 section {
   margin-bottom: 20px;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
 }
 
 #portfolio img {
